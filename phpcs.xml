@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="WP Uptime Monitor REST API Endpoint">
+	<description>WP Uptime Monitor REST API Endpoint Coding Standard.</description>
+	<file>wp-uptime-monitor-rest-api-endpoint.php</file>
+	<arg name="extensions" value="php"/>
+	<arg value="-colors"/>
+	<rule ref="WordPress-Extra"/>
+</ruleset>

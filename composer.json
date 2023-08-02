@@ -1,0 +1,40 @@
+{
+    "name": "tombonez/wp-uptime-monitor-rest-api-endpoint",
+    "description": "A WordPress plugin for adding a non-cacheable REST API endpoint to your website that can be used to monitor its uptime.",
+    "homepage": "https://github.com/tombonez/wp-uptime-monitor-rest-api-endpoint",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Taylor",
+            "homepage": "https://github.com/tombonez"
+        }
+    ],
+    "keywords": [
+        "monitoring",
+        "uptime",
+        "wordpress",
+        "wordpress-plugin"
+    ],
+    "support": {
+        "issues": "https://github.com/tombonez/wp-uptime-monitor-rest-api-endpoint/issues"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "roave/security-advisories": "dev-latest",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "scripts": {
+        "phpcbf": "vendor/bin/phpcbf",
+        "phpcs": "vendor/bin/phpcs"
+    }
+}
