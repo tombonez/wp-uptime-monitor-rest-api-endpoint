@@ -24,6 +24,8 @@ function register_route() {
 }
 
 function handle_request() {
+	define( 'DONOTCACHEPAGE', true );
+
 	global $wpdb;
 
 	$query_result = $wpdb->get_row( 'SELECT NOW() as datetime' );
