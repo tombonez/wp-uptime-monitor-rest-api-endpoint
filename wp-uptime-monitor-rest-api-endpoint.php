@@ -24,7 +24,9 @@ function register_route() {
 }
 
 function handle_request() {
-	define( 'DONOTCACHEPAGE', true );
+	if ( ! defined( 'DONOTCACHEPAGE' ) ) {
+		define( 'DONOTCACHEPAGE', true );
+	}
 
 	return new \WP_REST_Response(
 		array(
