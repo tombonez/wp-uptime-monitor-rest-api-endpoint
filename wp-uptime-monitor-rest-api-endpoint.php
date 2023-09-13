@@ -4,7 +4,7 @@
  * Plugin Name:  WP Uptime Monitor REST API Endpoint
  * Plugin URI:   https://github.com/tombonez/wp-uptime-monitor-rest-api-endpoint
  * Description:  A WordPress plugin for adding a non-cacheable REST API endpoint to your website that can be used to monitor its uptime.
- * Version:      1.1.0
+ * Version:      1.2.0
  * Author:       Tom Taylor
  * Author URI:   https://github.com/tombonez
  */
